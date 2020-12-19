@@ -153,7 +153,7 @@
         background: red;
         background: var( --red-color);
         ```
-  - **Global Variables: **
+  - **Global Variables:**
     - `:root(pseudo-class selector that matches the root element of the document)`
       - creating variables in root make them available globally.
         - all child elements that use the variable, use it
