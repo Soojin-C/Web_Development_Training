@@ -1,0 +1,10 @@
+function rangeOfNumbers(startNum, endNum) {
+  if (startNum == endNum){
+    return [startNum]; //base case
+  }
+  const arr = rangeOfNumbers(startNum+1, endNum);
+  console.log(arr);
+  arr.unshift(startNum); //Add to the front
+  console.log(arr);
+  return arr;
+};
