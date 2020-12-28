@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href = "survey-form.css" rel = "stylesheet" type = "text/css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+	  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+		</script>
+</head>
+<body>
+	<div id = "body">
+  <h1 id = "title"> Newsletter Sign-Up! </h1>
+  <p id = "description"> 
+    Enter your information below to receive our newsletter on your terms! This service is free and settings can always be changed later!
+  </p>
+  <form id = "survey-form">
+    <label id = "name-label" for = "name">
+      Name:
+      <input type = "text" id = "name" placeholder = "Enter your name!" required>
+    </label>
+    <br>
+    <label id = "email-label" for = "email">
+      Email:
+      <input type = "email" id = "email" placeholder = "Enter a valid email!" required>
+    </label>
+    <br>
+    <label id = "number-label" for = "number">
+      Age:
+      <input type = "number" id = "number" min = "5" max = "100" placeholder = "Enter a valid age" required>
+    </label>
+    <br>
+    <label for = "dropdown">
+      How often would you like to receive the newsletter?
+      <select id = "dropdown">
+        <option value="weekly"> Weekly </option>
+        <option value="monthly"> Monthly </option>
+        <option value="yearly"> Yearly </option>
+      </select>
+    </label>
+    <br>
+    <div id = "radio-items">
+    <label for = "yes">
+      Would you like us to include promotional gift cards?
+      <br>
+      <input type = "radio" id = "yes" name = "radio-name" value = "yes" checked> 
+	  Yes!
+    </label>
+    <label for = "no">
+      <input type = "radio" id = "no" name = "radio-name" value = "no">
+      No Thanks
+    </label>
+	</div>
+	<br>
+    
+	<div id = "checkbox-items">
+    Select all the topics you would like to be included in your newsletter!:
+    <br>
+	<label for = "art">
+      <input type = "checkbox" id = "art" name = "radio-name" value = "art" checked>
+      Art (The fine arts)
+    </label>
+    <br>
+    <label for = "crafts">
+      <input type = "checkbox" id = "crafts" name = "radio-name" value = "crafts">
+      Crafts (For both adult & children)
+    </label>
+    <br>
+    <label for = "technology">
+      <input type = "checkbox" id = "technology" name = "radio-name" value = "technology">
+      Technology
+    </label>
+    <br>
+    <label for = "lit">
+      <input type = "checkbox" id = "lit" name = "radio-name" value = "literature">
+      Literature
+    </label>
+	</div>
+    <br>
+    
+    <label for="text"> Additional Comments?:</label>
+    <br>
+    <textarea id="text" name="w3review" rows="4" cols="50">
+    </textarea>
+    
+    <br>
+    <button type = "submit" id = "submit"> Submit! </button>
+  </form>
+	</div>
+
+</body>
+</html>

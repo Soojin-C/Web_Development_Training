@@ -1,0 +1,78 @@
+#body {
+	font-family: 'Ubuntu', monospace;
+	font-size: 18px;
+	color: #27233A;
+	
+	text-align: center;
+	width: 575px;
+	margin : auto;
+	padding: 5px 10px 20px 10px;
+	
+	background-color: #EAEFD3;
+}
+
+#survey-form {
+	width: 500px;
+	margin: auto;
+  background-color: #DBE3B5;
+	border-color: #B3C0A4;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 5px;
+	padding: 10px 0px 10px 0px;
+}
+
+#name {
+	font-family: 'Ubuntu', monospace;
+	width: 150px;
+	height: 25px;
+	margin: 10px 0px 10px 0px;
+}
+#email {
+	font-family: 'Ubuntu', monospace;
+	width: 150px;
+	height: 25px;
+	margin: 10px 0px 10px 0px;
+}
+#number {
+	font-family: 'Ubuntu', monospace;
+	width: 150px;
+	height: 25px;
+	margin: 10px 0px 10px 0px;
+}
+
+#dropdown {
+	font-family: 'Ubuntu', monospace;
+	width: 100px;
+	height: 25px;
+  margin: 10px 0px 10px 0px;
+}
+
+#radio-items {
+	margin: 5px 0px 5px 0px;
+}
+
+#checkbox-items {
+	margin: 5px 0px 5px 10px;
+}
+
+button {
+	background-color: #EDAFB8;
+  border-radius: 10px;
+	font-family: 'Ubuntu', monospace;
+	font-size: 18px;
+	width: 100px;
+	height: 40px;
+	margin: 5px 0px 5px 0px;
+	padding: 5px 0px 5px 0px;
+}
+button:hover{
+  animation-name: color-change;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+@keyframes color-change {
+  100% {
+    background-color: #E58B98;
+  }
+}
