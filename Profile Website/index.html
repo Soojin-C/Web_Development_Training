@@ -2,47 +2,61 @@
 <html>
   <head>
     <title>Soojin's Profile Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./navbar.css">
   </head>
 
   <body>
 	<!-- NAVBAR -->
   <nav id="navbar" class="nav">
+    <header>
+  	   Soojin Choi
+  	</header>
     <ul class="nav-list">
-      <li class = "main-nav">
-          <a href="#welcome-section">Home Page</a>
-      </li>
-      <li class = "main-nav">
-        <a href="#profile">Profile</a>
-      </li>
-      <li class = "main-nav">
-        <a href="#projects">Projects</a>
+      <li>
+          <a href="#welcome-section" class = "nav-link">Home Page</a>
       </li>
       <li>
-        <a href="experience.html">Experience</a>
+        <a href="#profile" class = "nav-link">Introduction</a>
       </li>
-      <li class = "main-nav">
-        <a href="#connect">Connect</a>
+      <li>
+        <a href="#projects" class = "nav-link">Projects</a>
+      </li>
+      <li>
+        <a href="experience.html" class = "nav-link">Experience</a>
+      </li>
+      <li>
+        <a href="#connect" class = "nav-link">Connect</a>
       </li>
     </ul>
   </nav>
-
-    <section id = "welcome-section">
+  <!-- END NAVBAR -->
+  <main id = "main-doc">
+    <div id = "nav-place">
+    </div>
+    <section id = "welcome-section" class = "main-section">
 		    <h1> Welcome to my Profile Page </h1>
         <p>
           My name is Soojin. Here you will find all the information about me!
         </p>
 	  </section>
 
-    <section id = "profile">
-      <h2> Introductory Information </h2>
-      <div class = "profile">
-        <h3> Name: Soojin Choi <h3>
-        <h3> Birthday: <h3> <h3 id = "reveal_birthday?"> </h3>
-        <h3> Age: 19 <h3>
+    <section id = "profile" class = "main-section">
+      <header> Introductory Information </header>
+      <div id = "profiling" class = "main-div">
+        <p>
+          Name: Soojin Choi
+          <br>
+          Major: Computer Science
+          <br>
+          Age: 19
+        </p>
       </div>
-      <div id = "schooling">
+      <div id = "schooling" class = "main-div">
         <h3> School: </h3>
-        <div id = "nyu">
+        <div id = "nyu" class = "school">
           <h4> NYU 2023 </h4>
           <p>
             What an interesting school. It's theme color is purple and is located at the heart of New York City.
@@ -50,7 +64,7 @@
             I, however, plan to major in computer science.
           </p>
         </div>
-        <div id = "stuy">
+        <div id = "stuy" class = "school">
           <h4> Stuyvesant HS 2019 </h4>
           <p>
             I spent four years in this high school and first learned about and fell in love with computer science.
@@ -60,8 +74,8 @@
       </div>
     </section>
 
-    <section id = "projects">
-      <h2> My Projects: </h2>
+    <section id = "projects" class = "main-section">
+      <header> My Projects: </header>
       <div class = "project_one">
         <h3> A Study Space (2020) </h3>
         <img src = "#" alt = "Image for Project One" >
@@ -83,8 +97,8 @@
       <a href="./full_projects_gallery.html"> See All </a>
     </section>
 
-    <section id = "connect">
-		<h1> Connect! </h1>
+    <section id = "connect" class = "main-section">
+		<header> Connect! </header>
     <p>
       Let's Connect (If you would like to)!
     </p>
@@ -92,5 +106,6 @@
       <img src = "#" alt = "Github logo">
     </a>
 	</section>
+</main>
   </body>
 </html>

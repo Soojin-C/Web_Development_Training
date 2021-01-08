@@ -1,0 +1,92 @@
+body{
+	min-width: 290px;
+	color: #003459;
+	background-color: #ffffff;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1.5;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+#welcome-section{
+  justify-content: center;
+  align-items: center;
+  background-color: #241715;
+  color: #D9B8C4;
+}
+#welcome-section h1{
+  text-align: center;
+  font-size: 90px;
+}
+
+@media (max-width: 1150px) {
+  #welcome-section h1 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 900px) {
+  #welcome-section h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 700px) {
+  #welcome-section h1 {
+    font-size: 30px;
+  }
+}
+
+#main-doc header{
+	  	margin: 10px 0px 10px 0px;
+      line-height: 200%;
+      height: 10vh;
+	  	text-align: center;
+	  	font-size:30px;
+      background-color: #EEE8EA;
+
+      border-style: dashed;
+      border-color: #1A110F;
+}
+
+#main-doc{
+	  	position: absolute;
+	  	margin-left: 305px;
+	  	margin-right: 10px;
+
+      color: #1A110F;
+}
+
+#profile div{
+  margin-bottom: 10px;
+  background-color: #DCD0D4;
+}
+#profile h3{
+  font-size:20px;
+}
+#profiling{
+  font-size: 20px;
+  padding-bottom: 5px;
+  height: 30vh;
+}
+#schooling{
+  height: 60vh;
+}
+.main-div{
+  padding: 10px 10px 10px 10px;
+}
+.school{
+  padding: 10px 0px 10px 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #76415D;
+}
+.school h4{
+  font-size: 18px;
+  border-bottom: solid;
+  border-width: 2px;
+  border-color: #76415D;
+}
