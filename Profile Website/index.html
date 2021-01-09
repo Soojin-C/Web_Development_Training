@@ -6,6 +6,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./profile.css">
+    <link rel="stylesheet" href="./projects.css">
   </head>
 
   <body>
@@ -22,6 +24,9 @@
         <a href="#profile" class = "nav-link">Introduction</a>
       </li>
       <li>
+        <a href="#schooling" class = "sub-nav-link">Schools</a>
+      </li>
+      <li>
         <a href="#projects" class = "nav-link">Projects</a>
       </li>
       <li>
@@ -34,8 +39,6 @@
   </nav>
   <!-- END NAVBAR -->
   <main id = "main-doc">
-    <div id = "nav-place">
-    </div>
     <section id = "welcome-section" class = "main-section">
 		    <h1> Welcome to my Profile Page </h1>
         <p>
@@ -54,10 +57,13 @@
           Age: 19
         </p>
       </div>
-      <div id = "schooling" class = "main-div">
-        <h3> School: </h3>
+    </section>
+
+    <section id = "schooling" class = "sub-section">
+      <header> School History </header>
+        <div class= "school-grid">
         <div id = "nyu" class = "school">
-          <h4> NYU 2023 </h4>
+          <h3> NYU 2023 </h3>
           <p>
             What an interesting school. It's theme color is purple and is located at the heart of New York City.
             I entered the school for its liberal arts program, hence CAS, the College of Arts and Sciences.
@@ -65,7 +71,7 @@
           </p>
         </div>
         <div id = "stuy" class = "school">
-          <h4> Stuyvesant HS 2019 </h4>
+          <h3> Stuyvesant HS 2019 </h3>
           <p>
             I spent four years in this high school and first learned about and fell in love with computer science.
             The school had a lot of steps and floors (ten!)
@@ -76,24 +82,24 @@
 
     <section id = "projects" class = "main-section">
       <header> My Projects: </header>
-      <div class = "project_one">
+      <div class = "project-grid">
+      <div id = "project_one" class = "project-item">
         <h3> A Study Space (2020) </h3>
-        <img src = "#" alt = "Image for Project One" >
-        </img>
         <p>
           This project was made for HACKNYU. It is a website that was targeted to students of NYU.
           It was built to help students find study partners and study spaces easily based on the subjects a user selects.
         </p>
+        <a href="#"> <h4> Learn More </h4> </a>
       </div>
-      <div class = "project_two">
+      <div id = "project_two" class = "project-item">
         <h3> Scribbl+ (2019) </h3>
-        <img src = "#" alt = "Image for Project Two" >
-        </img>
         <p>
           This project was made for Software Development class project.
           It is a website that simulates the game of Scribble.io, a multiplayer drawing game.
         </p>
+        <a href="#"> <h4> Learn More </h4> </a>
       </div>
+    </div>
       <a href="./full_projects_gallery.html"> See All </a>
     </section>
 
