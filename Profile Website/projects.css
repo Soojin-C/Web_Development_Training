@@ -47,6 +47,18 @@
   border-width: 1px;
 }
 
+.project-item:hover{
+  animation-name: hovering;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+@keyframes hovering {
+  100% {
+    box-shadow: 2px 5px #888888;
+    background-color: #EAD7DD;
+  }
+}
+
 .project-item h3{
   border-bottom: solid;
   border-color: #76415D;
