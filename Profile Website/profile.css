@@ -84,3 +84,31 @@
   font-size: 2.5vh;
   padding: 0px 10px 0px 10px;
 }
+
+#connect{
+  justify-content: center;
+  align-items: center;
+  background-color: #241715;
+  color: #D9B8C4;
+  height: 100vh;
+}
+#connect header{
+  text-align: center;
+  font-size: 90px;
+}
+
+@media (max-width: 1150px) {
+  #welcome-section header {
+    font-size: 60px;
+  }
+}
+@media (max-width: 900px) {
+  #welcome-section header {
+    font-size: 40px;
+  }
+}
+@media (max-width: 700px) {
+  #welcome-section header {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,93 @@
+#projects header{
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  color: #F1E4EA;
+  font-size:5vh;
+  background-color: #402A2C;
+}
+
+#projects a{
+  margin: 10px 0px 10px 0px;
+  padding: 5px 0px 5px 0px;
+  background-color: #402A2C;
+  text-align: center;
+  text-decoration: none;
+  color: #F1E4EA;
+  border-style: none;
+}
+
+#projects a:hover{
+  animation-name: color-change;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+@keyframes color-change {
+  100% {
+    color: #E3CAD2;
+    background-color: #56383B;
+  }
+}
+
+.project-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 10px;
+  width: 100%;
+  max-width: 1280px;
+}
+
+.project-item{
+  padding: 5px 10px 0px 10px;
+
+  background-color: #F1E4EA;
+
+  border-style: solid;
+  border-color: #76415D;
+  border-width: 1px;
+}
+
+.project-item:hover{
+  animation-name: hovering;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+@keyframes hovering {
+  100% {
+    box-shadow: 2px 5px #888888;
+    background-color: #EAD7DD;
+  }
+}
+
+.project-item h3{
+  border-bottom: solid;
+  border-color: #76415D;
+  border-width: 1px;
+}
+
+.project-item a{
+  text-decoration: none;
+}
+
+.project-item h4{
+  color: #844866;
+  padding-top: 5px;
+
+  text-align: center;
+  font-size: 18px;
+
+  border-top: solid;
+  border-color: #76415D;
+  border-width: 1px;
+}
+
+.project-item h4:hover{
+  animation-name: font-color-change;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+@keyframes font-color-change {
+  100% {
+    color: #361C28;
+  }
+}
