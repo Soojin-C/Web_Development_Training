@@ -12,12 +12,12 @@
   padding:3px 10px 0px 10px;
 }
 
-a {
+#main-doc a {
   text-decoration: none;
   color: #844866;
 }
 
-a:hover{
+#main-doc a:hover{
   animation-name: font-color-change;
   animation-duration: 500ms;
   animation-fill-mode: forwards;

@@ -49,3 +49,14 @@
 	border: solid;
 	border-color: #F1E5E9;
 }
+
+#navbar a:hover{
+  animation-name: navbar-color-change;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+@keyframes navbar-color-change {
+  100% {
+    color: #ffffff;
+  }
+}

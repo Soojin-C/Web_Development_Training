@@ -58,8 +58,25 @@
   padding: 10px 10px 10px 10px;
   font-size: 4vh;
   height: 30vh;
-
 }
+#profiling a{
+  text-decoration: none;
+  font-size: 25px;
+}
+#profiling a:hover{
+  animation-name: font-color-change;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+#skills li{
+  padding: 5px 5px 5px 0px;
+}
+
+#skills li:hover{
+  transform: translateY(-4px);
+}
+
 #schooling{
   margin-bottom: 10px;
 }
