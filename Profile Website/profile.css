@@ -39,15 +39,12 @@
 }
 
 #profile header{
-	  	margin: 10px 0px 10px 0px;
-      padding: 10px 0px 10px 0px;
-	  	text-align: center;
-	  	font-size:5vh;
-      background-color: #EEE8EA;
-
-      border-style: dashed;
-      border-color: #1A110F;
-      border-width: 2px;
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  color: #F1E4EA;
+  font-size:5vh;
+  background-color: #402A2C;
 }
 
 #profile div{
@@ -112,6 +109,19 @@
 #connect header{
   text-align: center;
   font-size: 90px;
+}
+
+#connect a{
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  color: #D9B8C4;
+}
+
+#connect a:hover{
+  animation-name: navbar-color-change;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
 }
 
 @media (max-width: 1150px) {
